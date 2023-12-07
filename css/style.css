@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+/* inizio header */
+
+header{
+    margin-bottom: 30px;
+}
+
+h1{
+    color: #E53170;
+}
+
+/* fine header */
+
