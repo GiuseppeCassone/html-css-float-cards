@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
@@ -17,12 +17,57 @@ body{
 /* inizio header */
 
 header{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 h1{
     color: #E53170;
+    font-weight: 1000;
 }
 
 /* fine header */
+
+section{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+p{
+    display: inline-block;
+}
+
+
+/* inizio sezioni con immagini */
+.container::before{
+    content: ;
+    display: table;
+    clear: both;
+}
+
+
+.images{
+    width: 380px;
+    height: 120px;
+    margin-bottom: 50px;
+    margin-left: 22px;
+    float: left;
+    background-color: black;
+    color: white;
+    text-align: justify;
+}
+
+img{
+    width: 120px;
+    margin-right: 20px;
+    float: left;
+}
+
+.images div{
+    margin: 10px 0px
+}
+
+a{
+    text-decoration: none;
+    color: #6CCBF2;
+}
 
